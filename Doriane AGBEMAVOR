@@ -1,0 +1,127 @@
+ <!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Portfolio professionnel de [Ton Nom] avec des articles et projets créatifs.">
+    <title>Portfolio de [Ton Nom]</title>
+    <style>
+        body {
+            font-family: 'Arial', sans-serif;
+            margin: 0;
+            padding: 0;
+            background: #f4f4f9;
+            color: #333;
+        }
+        header {
+            background: #333;
+            color: white;
+            padding: 20px;
+            text-align: center;
+            font-size: 24px;
+        }
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 20px;
+        }
+        .section-title {
+            font-size: 30px;
+            color: #333;
+            margin-bottom: 20px;
+        }
+        .article {
+            background: #fff;
+            margin-bottom: 30px;
+            border-radius: 8px;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+            overflow: hidden;
+        }
+        .article img {
+            width: 100%;
+            height: 250px;
+            object-fit: cover;
+        }
+        .article-content {
+            padding: 20px;
+        }
+        .article-content h3 {
+            font-size: 22px;
+            margin: 0;
+            color: #333;
+        }
+        .article-content p {
+            font-size: 16px;
+            color: #666;
+            line-height: 1.6;
+            margin: 10px 0 0;
+        }
+        .btn {
+            display: inline-block;
+            background: #333;
+            color: white;
+            padding: 10px 15px;
+            text-decoration: none;
+            border-radius: 4px;
+            margin-top: 10px;
+            transition: background-color 0.3s ease;
+        }
+        .btn:hover {
+            background: #555;
+        }
+        footer {
+            text-align: center;
+            padding: 10px;
+            background: #333;
+            color: white;
+            margin-top: 50px;
+        }
+    </style>
+</head>
+<body>
+
+<header>
+    <h1>Portfolio de [Ton Nom]</h1>
+    <p>Bienvenue sur mon portfolio créatif où je partage mes projets et articles.</p>
+</header>
+
+<div class="container">
+
+    <section>
+        <h2 class="section-title">Mes Articles</h2>
+        
+        <!-- Exemple d'article -->
+        <div class="article">
+            <img src="https://via.placeholder.com/1200x250" alt="Image article">
+            <div class="article-content">
+                <h3>Un titre d'article captivant</h3>
+                <p>Un extrait d'article passionnant qui résume ce que tu fais, tes idées ou tes réflexions. Tu peux également partager des expériences ou des astuces utiles pour ton audience.</p>
+                <a href="#" class="btn">Lire plus</a>
+            </div>
+        </div>
+
+        <!-- Exemple d'article -->
+        <div class="article">
+            <img src="https://via.placeholder.com/1200x250" alt="Image article">
+            <div class="article-content">
+                <h3>Un autre article intéressant</h3>
+                <p>Un deuxième extrait d'article pour montrer la diversité de ton travail ou tes réflexions créatives. Cela peut également être un résumé de ton dernier projet.</p>
+                <a href="#" class="btn">Lire plus</a>
+            </div>
+        </div>
+    </section>
+
+    <section>
+        <h2 class="section-title">Mes Projets</h2>
+        <p>Un espace pour afficher tes projets créatifs. Tu peux ici intégrer des liens, images ou descriptions de tes réalisations.</p>
+        <a href="#" class="btn">Découvrir mes projets</a>
+    </section>
+
+</div>
+
+<footer>
+    <p>&copy; 2025 [Ton Nom]. Tous droits réservés.</p>
+</footer>
+
+</body>
+</html>
